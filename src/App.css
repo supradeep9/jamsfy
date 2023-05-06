@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+.Box {
+  margin: 0;
+  background-color: #d8d8d8;
+  height: 90px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Button {
+  margin: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table {
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.links {
+  color: grey;
+  text-decoration: none;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+}
+
+.pgrid {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.butt {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid lightblue;
+  border-radius: 20px;
+  height: 100%;
+}
+
+img {
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.wrapperDiv {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  height: 100%;
+}
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background: lightblue;
+  color: #fbeaeb;
+  margin-bottom: 8px;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
+.inputForm {
+  display: flex;
+  flex-direction: column;
 
-.App-link {
-  color: #61dafb;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  top: 200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input4 {
+  width: 250px;
+  margin: 4px;
+  padding: 5px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+}
+.input5 {
+  width: 260px;
+  margin: 4px;
+  padding: 5px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+}
+.topbar {
+  width: 99vw;
+  height: 15vh;
+  background-color: #f1f6f9;
+  margin-bottom: 10px;
+}
+.topbar:hover {
+  color: #b8e7e1;
+}
+.child1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.userName {
+  position: relative;
+  right: 60px;
+  top: 10px;
+}
+.cartIcon {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 20px;
+  top: 15px;
+}
+.circle {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 20px;
+  position: absolute;
+  right: 100px;
+}
+.number {
+  position: absolute;
+  left: 8px;
+}
+.seconDiv {
+  display: flex;
+}
+.counts {
+  position: relative;
+  bottom: 15px;
+  left: 8px;
 }
